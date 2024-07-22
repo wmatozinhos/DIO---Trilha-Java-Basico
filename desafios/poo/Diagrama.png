@@ -1,1 +1,33 @@
-<img src="Untitled diagram-2024-07-22-015814.png" alt="Diagrama">
+classDiagram
+    class ReprodutorMusical {
+        -Musicas[] musicas
+
+        +tocar() void
+        +pausar() void
+        +selecionarMusica(String nomeMusica) void
+        +musicaBaixada() boolean
+        -conectadoInternet() boolean
+    }
+
+    class AparelhoTelefonico {
+        -Contatos[] contatos
+
+        -existeSinal() boolean
+        +atender() void
+        +ligar(String numeroTelefonico) void
+        +iniciarCorreioVoz() void
+    }
+
+    class NavegadorInternet {
+        -conectadoInternet() boolean
+        +exibirPagina(String urlSite) void
+        +adicionarNovaAba() void
+        +atualizarPagina() void
+    }
+
+    class iPhone {
+    }
+
+    iPhone <-- ReprodutorMusical
+    iPhone <-- AparelhoTelefonico
+    iPhone <-- NavegadorInternet
