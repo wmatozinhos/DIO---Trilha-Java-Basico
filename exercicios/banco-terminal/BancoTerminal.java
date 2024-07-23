@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
-public class ContaTerminal {
+public class BancoTerminal {
 
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int numero = 0;
         String agencia = new String("");
         String nomeCliente = new String("");
-        double saldo = 0.0;
+        double valorSolicitado = 18;
+        double saldo = 25;
 
         System.out.println("Informe seu nome:");
         nomeCliente = scan.nextLine();
