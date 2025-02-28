@@ -14,7 +14,7 @@ public class ContaTerminal {
 		String agencyInput = scanner.nextLine();
 		
 	
-		bankService.login(account, Integer.parseInt(agencyInput));
+		bankService.login(account, agencyInput);
 		scanner.close();
 	}
 }
