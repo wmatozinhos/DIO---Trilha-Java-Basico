@@ -15,8 +15,8 @@ Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o
 
 | Atributo  | Tipo     | Exemplo   
 | --------- | ---------| ------- 
-| Numero    | Inteiro  | 1021 
-| Agencia   | Texto    | 067-8
+| Agencia    | Inteiro  | 1021 
+| Numero   | Texto    | 067-8
 | Nome Cliente | Texto    | MARIO ANDRADE
 | Saldo | Decimal |237.48
 
